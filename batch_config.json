@@ -1,0 +1,55 @@
+{
+    "description": "Batch render config - generates multiple variants from the same MIDI",
+    "renders": [
+        {
+            "midi": "/path/to/your/song.mid",
+            "audio": "/path/to/your/song.mp3",
+            "output": "/output/song_teal_cascade.mp4",
+            "theme": "teal",
+            "layout": "cascade",
+            "seed": 42,
+            "engine": "CYCLES",
+            "samples": 128
+        },
+        {
+            "midi": "/path/to/your/song.mid",
+            "audio": "/path/to/your/song.mp3",
+            "output": "/output/song_neon_spiral.mp4",
+            "theme": "neon",
+            "layout": "spiral",
+            "seed": 123,
+            "engine": "CYCLES",
+            "samples": 128
+        },
+        {
+            "midi": "/path/to/your/song.mid",
+            "audio": "/path/to/your/song.mp3",
+            "output": "/output/song_warm_zigzag.mp4",
+            "theme": "warm",
+            "layout": "zigzag",
+            "seed": 456,
+            "engine": "CYCLES",
+            "samples": 128
+        },
+        {
+            "midi": "/path/to/your/song.mid",
+            "audio": "/path/to/your/song.mp3",
+            "output": "/output/song_pastel_cascade.mp4",
+            "theme": "pastel",
+            "layout": "cascade",
+            "seed": 789,
+            "engine": "BLENDER_EEVEE_NEXT",
+            "samples": 64
+        },
+        {
+            "midi": "/path/to/your/song.mid",
+            "audio": "/path/to/your/song.mp3",
+            "output": "/output/song_ocean_spiral.mp4",
+            "theme": "ocean",
+            "layout": "spiral",
+            "seed": 101,
+            "engine": "CYCLES",
+            "samples": 96
+        }
+    ]
+}

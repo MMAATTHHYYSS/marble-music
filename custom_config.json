@@ -1,0 +1,54 @@
+{
+    "render": {
+        "resolution_x": 1080,
+        "resolution_y": 1920,
+        "fps": 60,
+        "engine": "CYCLES",
+        "samples": 128,
+        "use_motion_blur": true,
+        "motion_blur_shutter": 0.5
+    },
+    "physics": {
+        "gravity": 9.81,
+        "restitution": 0.7,
+        "ball_radius": 0.15,
+        "min_arc_height": 0.5,
+        "max_arc_height": 3.0,
+        "enable_spin": true,
+        "spin_speed_multiplier": 2.0
+    },
+    "platform": {
+        "base_width": 0.6,
+        "base_depth": 0.4,
+        "base_height": 0.08,
+        "base_spacing": 1.5,
+        "enable_dots": true
+    },
+    "camera": {
+        "focal_length": 35.0,
+        "enable_dof": true,
+        "dof_fstop": 2.8,
+        "view_mode": "dynamic",
+        "enable_rotation": true,
+        "offset_z": 5.0
+    },
+    "effects": {
+        "enable_impact_glow": true,
+        "glow_intensity": 5.0,
+        "enable_particles": true,
+        "particle_count": 20,
+        "particle_type": "stars",
+        "enable_platform_reaction": true
+    },
+    "layout": {
+        "layout_mode": "cascade",
+        "zigzag_width": 3.0,
+        "vertical_drop": 0.4,
+        "section_length": 16
+    },
+    "midi": {
+        "lead_in_time": 1.0,
+        "lead_out_time": 2.0,
+        "quantize": false
+    }
+}
